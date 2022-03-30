@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+.main {
+    text-align: center;
+    background-color: rgb(196, 89, 18);
+}
+h1 {
+    color: white;
+}
+input {
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+}
+button  {
+    height: 25px;
+    width: 100px;
+    background-color: rgb(61, 180, 180);
+    color: white;
+    font-size: large;
+    margin-top: 7px;
+}
+.imagesection {
+    /* background-color: aliceblue; */
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-radius: 10px;
+}
+.listmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: white;
+}
+.list {
+    text-align: center;
+    /* border: 10px solid white; */
+    height: 200px;
+    width: 300px;
+}
